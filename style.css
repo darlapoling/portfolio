@@ -1,0 +1,35 @@
+html, body{
+  background-color: lavender;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 2;
+  font-size:large;
+  right: 20px;
+}
+
+h1{
+  text-align:center;
+}
+
+.subheading{
+  text-align:center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+.flex-cols {
+  display: flex;
+  align-items:start; /* Vertically centers the text and image */
+  gap: 2rem; /* Adds space between the text and image */
+}
+
+.text-col {
+  flex: 1; /* Takes up half the space */
+}
+
+.img-col {
+  flex: 1; /* Takes up half the space */
+}
+
+.img-col img {
+  max-width: 100%;
+  height: auto;
+}
