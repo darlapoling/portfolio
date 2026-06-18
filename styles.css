@@ -1,12 +1,11 @@
-/*  CSS Variables - Easy theme customization */
 :root {
-  --color-primary: #F2BDFF;        /* Periwinkle */
-  --color-primary-dark: #542261;   /* Darker periwinkle for accents */
-  --color-background: #f4f4fa;     /* Soft lavender-white */
-  --color-surface: #ffffff;        /* Card backgrounds */
-  --color-text: #2c2c3e;           /* Dark navy-gray for body text */
-  --color-text-muted: #5a5a72;     /* Secondary text */
-  --color-border: #d8d8ea;         /* Subtle borders */
+  --color-primary: #8a8ad6;
+  --color-primary-dark: #6b6bb8;
+  --color-background: #f4f4fa;
+  --color-surface: #ffffff;
+  --color-text: #2c2c3e;
+  --color-text-muted: #5a5a72;
+  --color-border: #d8d8ea;
 
   --font-primary: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   --font-heading: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
@@ -18,7 +17,6 @@
   --max-width: 1100px;
 }
 
-/* Base Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,7 +37,6 @@ body {
   padding: var(--spacing-md);
 }
 
-/* Typography*/
 h1, h2, h3 {
   font-family: var(--font-heading);
   color: var(--color-primary-dark);
@@ -83,7 +80,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Layout - Two Column Flex*/
 .flex-cols {
   display: flex;
   align-items: flex-start;
@@ -103,7 +99,71 @@ a:hover {
   box-shadow: 0 4px 12px rgba(138, 138, 214, 0.15);
 }
 
-/* Responsive - Stack columns on small screens */
+.container {
+  background-color: var(--color-surface);
+  max-width: 600px;
+  margin: var(--spacing-md) auto;
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(138, 138, 214, 0.15);
+}
+
+form label {
+  display: block;
+  margin-top: var(--spacing-sm);
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(138, 138, 214, 0.2);
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+form input[type="submit"] {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  padding: 0.75rem 2rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: var(--color-primary-dark);
+}
+
+form input[type="submit"]:active {
+  transform: translateY(1px);
+}
+
 @media (max-width: 768px) {
   body {
     padding: var(--spacing-sm);
@@ -116,5 +176,12 @@ a:hover {
   h1 {
     font-size: 2rem;
   }
-}
 
+  .container {
+    padding: var(--spacing-sm);
+  }
+
+  form input[type="submit"] {
+    width: 100%;
+  }
+}
