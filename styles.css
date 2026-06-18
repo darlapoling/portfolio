@@ -136,6 +136,26 @@ form textarea:focus {
   box-shadow: 0 0 0 3px rgba(138, 138, 214, 0.2);
 }
 
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input[type="email"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(138, 138, 214, 0.2);
+}
+
 form textarea {
   resize: vertical;
   min-height: 150px;
