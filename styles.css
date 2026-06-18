@@ -1,7 +1,7 @@
 /*  CSS Variables - Easy theme customization */
 :root {
   --color-primary: #F2BDFF;        /* Periwinkle */
-  --color-primary-dark: #6b6bb8;   /* Darker periwinkle for accents */
+  --color-primary-dark: #542261;   /* Darker periwinkle for accents */
   --color-background: #f4f4fa;     /* Soft lavender-white */
   --color-surface: #ffffff;        /* Card backgrounds */
   --color-text: #2c2c3e;           /* Dark navy-gray for body text */
