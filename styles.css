@@ -190,3 +190,8 @@ form input[type="submit"]:active {
   }
   pointer-events: none;
 }
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
