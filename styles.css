@@ -63,7 +63,7 @@ h2 {
   color: var(--color-text-muted);
   font-size: 1.15rem;
   margin-bottom: var(--spacing-lg);
-  gap: 20px;
+  gap: 200px;
 }
 
 p {
