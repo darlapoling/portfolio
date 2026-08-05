@@ -11,6 +11,14 @@
     gtag('config', 'G-RL9MNSLQTW');
   </script>
 
+  <script type="application/javascript">
+    function getIP(json) {
+      document.write("My public IP address is: ", json.ip);
+    }
+  </script>
+  
+  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+    
   <title>Darla Poling's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
