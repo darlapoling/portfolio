@@ -219,3 +219,9 @@ form input[type="submit"]:active {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.flex-column img {
+  width: 100%;       /* Forces image to match the column width */
+  height: auto;      /* Maintains original aspect ratio */
+  display: block;    /* Removes extra baseline spacing */
+}
