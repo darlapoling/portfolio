@@ -202,11 +202,6 @@ form input[type="submit"]:active {
   flex-direction: column;
 }
 
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
 
 .card-content {
   padding: 1.5rem;
