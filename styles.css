@@ -215,3 +215,12 @@ form input[type="submit"]:active {
   gap: 0.75rem;
   flex-grow: 1;
 }
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
