@@ -211,7 +211,7 @@ form input[type="submit"]:active {
   flex-grow: 1;
 }
 
-.portfolio-grid {
+.portfolio-cols {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
