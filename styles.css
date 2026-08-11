@@ -59,11 +59,12 @@ h2 {
 }
 
 .subheading {
+  display: flex;
   text-align: center;
   color: var(--color-text-muted);
   font-size: 1.15rem;
   margin-bottom: var(--spacing-lg);
-  gap: 200px;
+  gap: 20px;
 }
 
 p {
