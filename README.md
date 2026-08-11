@@ -1,4 +1,4 @@
-# [Portfolio](https://darlapoling.github.io/portfolio/)
+# [Click Here to See My Portfolio](https://darlapoling.github.io/portfolio/)
 
 Click the above link to see more of my work and me as a person.
 
@@ -10,9 +10,7 @@ Retrieved 2026-08-11, License - CC BY-SA 4.0
 
 # Table of contents
 1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Resources Used:](#paragraph2)
+2. [Resources Used:](#paragraph2)
 
 ## This is the introduction <a name="introduction"></a>
 This is a repository for hosting my portfolio website, which features:
@@ -22,12 +20,6 @@ This is a repository for hosting my portfolio website, which features:
 - Featured projects
 
 If you'd like to see more of my work, please visit [My Business Analysis Portfolio](https://github.com/darlapoling/business-analyst-portfolio)
-
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
 
 ## Resources Used: <a name="paragraph2"></a>
 This markdown file contains links to resources or information I used in the process of building this portfolio. There are assets I've used on these pages as well as sources of information I've used to develop my knowledge and skills in HTML, CSS, and JavaScript. 
