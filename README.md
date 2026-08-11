@@ -12,7 +12,7 @@ Retrieved 2026-08-11, License - CC BY-SA 4.0
 1. [Introduction](#introduction)
 2. [Resources Used:](#paragraph2)
 
-## This is the introduction <a name="introduction"></a>
+## Introduction: <a name="introduction"></a>
 This is a repository for hosting my portfolio website, which features:
 - A summary of who I am
 - A contact me form
