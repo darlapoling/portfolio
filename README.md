@@ -8,9 +8,6 @@ Posted by Tum, modified by community. See post 'Timeline' for change history
 Retrieved 2026-08-11, License - CC BY-SA 4.0
 -->
 
-# Table of contents
-1. [Introduction](#introduction)
-2. [Resources Used:](#paragraph2)
 
 ## Introduction: <a name="introduction"></a>
 This is a repository for hosting my portfolio website, which features:
