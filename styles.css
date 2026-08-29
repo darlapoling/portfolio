@@ -1,11 +1,11 @@
 :root {
-  --color-primary: #8a8ad6;
-  --color-primary-dark: #6b6bb8;
-  --color-background: #f4f4fa;
+  --color-primary: #BDA6CE;
+  --color-primary-dark: #9B8EC7;
+  --color-background: #F2EAE0;
   --color-surface: #ffffff;
   --color-text: #2c2c3e;
   --color-text-muted: #5a5a72;
-  --color-border: #d8d8ea;
+  --color-border: #B4D3D9;
 
   --font-primary: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   --font-heading: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
@@ -94,11 +94,17 @@ a:hover {
   flex: 1;
 }
 
-.img-col img {
+.img-col img,
+.flex-column img {
   max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
+}
+
+.img-col img {
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(138, 138, 214, 0.15);
+  box-shadow: 0 4px 12px rgba(189, 166, 206, 0.15);
 }
 
 .container {
@@ -107,7 +113,34 @@ a:hover {
   margin: var(--spacing-md) auto;
   padding: var(--spacing-md);
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(138, 138, 214, 0.15);
+  box-shadow: 0 4px 12px rgba(189, 166, 206, 0.15);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-grow: 1;
+}
+
+.portfolio-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 form label {
@@ -139,7 +172,7 @@ form input[type="tel"]:focus,
 form textarea:focus {
   outline: none;
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(138, 138, 214, 0.2);
+  box-shadow: 0 0 0 3px rgba(189, 166, 206, 0.2);
 }
 
 form textarea {
@@ -190,39 +223,4 @@ form input[type="submit"]:active {
   form input[type="submit"] {
     width: 100%;
   }
-  pointer-events: none;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between
-}
-
-.card{
-  display:flex;
-  flex-direction: column;
-}
-
-
-.card-content {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  flex-grow: 1;
-}
-
-.portfolio-cols {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.flex-column img {
-  width: 100%;       /* Forces image to match the column width */
-  height: auto;      /* Maintains original aspect ratio */
-  display: block;    /* Removes extra baseline spacing */
 }
