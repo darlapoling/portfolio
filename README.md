@@ -11,10 +11,10 @@ Retrieved 2026-08-11, License - CC BY-SA 4.0
 
 ## Introduction: <a name="introduction"></a>
 This is a repository for hosting my portfolio website, which features:
-- A summary of who I am
-- A contact me form
+- An About Me section featuring multiple interactive visualizations
+- A contact me form 
 - A downloadable PDF copy of my current resume
-- Featured projects
+- Featured projects which are typically hosted here, on GitHub
 
 If you'd like to see more of my work, please visit [My Business Analysis Portfolio](https://github.com/darlapoling/business-analyst-portfolio)
 
