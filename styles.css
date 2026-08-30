@@ -59,7 +59,6 @@ h2 {
 }
 
 .subheading {
-  display: flex;
   text-align: center;
   color: var(--color-text-muted);
   font-size: 1.15rem;
