@@ -3,3 +3,6 @@ https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 # Building a table of contents in markdown:
 https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents
+
+# Google tagging for analytics:
+https://developers.google.com/tag-platform/devguides
